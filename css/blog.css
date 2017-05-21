@@ -1,0 +1,100 @@
+body{
+	 
+	 background-color: #C1E1A6;
+ }
+ #maket {
+    width: 100%; /* Ширина всей таблицы в процентах */
+ }
+ #maket TD {
+    vertical-align: top; /* Вертикальное выравнивание в ячейках */
+ }
+ TD#leftcol {
+    width: 70%; /* Ширина левой колонки в пикселах */
+ }
+ TD#rightcol {
+    width: 30%; /* Ширина левой колонки в пикселах */
+ }
+ h1 , h4{
+	 display: inline;
+ }
+
+.subheader{
+  margin: 20px 20px 20px 20px;
+	 font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 }
+.revol{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+}
+ header{
+	 margin-top: 50px;
+	 margin-bottom:50px;
+ }
+ footer{
+	 margin-top: 30px;
+	 margin-bottom:50px;
+ }
+.layout { overflow: hidden; }
+.bgcolor{
+	background-color:#A9A9A9;
+}
+.aa{
+	padding:5px;
+}
+
+.col1 {
+	border: 10px solid #F0FFFF;
+	width: 70%;
+	float: left;
+}
+.col2 {
+	border: 10px solid #F0FFFF;
+	width: 30%;
+	float: left;
+}
+.img1{
+  float: left;
+  width: 120px;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+
+}
+.img2{
+	border: 10px solid #7E8F7C;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-size: cover;
+  margin-right: 10px;
+
+}
+.article1 {
+
+    float:left; /* Выравнивание по левому краю */
+    margin: 7px 7px 7px 20px; /* Отступы вокруг картинки */
+    width: 350px;
+    height: 150px;
+   }
+.article2 {
+   float:left; /* Выравнивание по левому краю */
+   margin: 5px 5px 5px 10px; /* Отступы вокруг картинки */
+   width: 95%;
+   height: 150px;
+}
+.articlecoment{
+   float:left; /* Выравнивание по левому краю */
+   margin: 5px 5px 5px 10px; /* Отступы вокруг картинки */
+   width: 95%;
+   height: 100px;
+}
+.block1{
+
+	margin-top: 20px;
+}
+.form1{
+	padding-left: 30px;
+	padding-right: 30px;
+}
