@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Озвучка выделенного текста</title>
+</head>
+<body>
+    <p>Все мы, все мы в этом мире тленны, <br>
+    Тихо льется с кленов листьев медь... <br>
+    Будь же ты вовек благословенно, <br>
+    Что пришло процвесть и умереть.</p>
+    <button onclick="speak(window.getSelection())">Озвучить</button>
+    <script>
+        function speak(text) {
+            const message = new SpeechSynthesisUtterance();
+            message.lang = "ru-RU";
+            message.text = text;
+            window.speechSynthesis.speak(message)
+        }
+
+    </script>
+</body>
+</html>
